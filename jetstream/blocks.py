@@ -5,7 +5,7 @@ from django.core.exceptions import ValidationError
 from django.template.loader import render_to_string
 from django.utils.safestring import mark_safe
 from django.utils.translation import ugettext as _
-from djunk.middleware import get_current_request
+#from djunk.middleware import get_current_request
 from wagtail.core import blocks
 from wagtail.core.blocks import BaseStreamBlock
 from wagtail.core.models import Site
